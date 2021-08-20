@@ -1,0 +1,132 @@
+.bar:hover{
+	border:solid 1px rgb(50,150,270);
+}
+.bar2:hover{
+	border:solid 1px rgb(50,150,270);
+}
+.catagories, .popular{
+	font-size:1.7em;
+	margin-bottom: 15px;
+	font-family:arial, sans-serif !important;
+	font-weight: 600;
+}
+.impimage{
+	display: flex;
+	width:100%;
+	height: 320px;
+	/*border: solid gray 1px;*/
+	margin: 0px 0 20px;
+	background: url(../img/toptwo.png);
+}
+.choosebox{
+	width:100%;
+	height: 40px;
+	background-color:#AFDaFa;
+	opacity: 0.7
+}
+.main, .main2{
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	/*margin-top: 0;*/
+}
+.col, .col2{
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-bottom: 15px;
+	align-items: center;
+	justify-content: space-around;
+
+}
+.contain, .contain2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width:165px;
+	height: 200px;
+	/*border:#eee 1px solid;*/
+	margin-bottom: 20px
+}
+.bar, .bar2{
+	width:150px;
+	height: 150px;
+	border:white 1px solid;
+	border-radius: 1500px;
+}
+.bill{
+	font-family: arial,sans-serif;
+	font-size: 20px;
+}
+.contain1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width:210px;
+	height: 250px;
+	border:#ddd 1px solid;
+	margin:0 15px;
+	margin-left:0;
+}
+.main1{
+	width: 100%;
+	position:relative;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.col1{
+	width: 100%;
+	position:relative;
+	display: flex;
+	flex-direction: row;
+	margin:10px 20px 15px;
+	margin-left:20px;
+	overflow: scroll;
+
+}
+.contain1:last-child{
+	margin-right:10px;
+}
+.bar1{
+	width:210px;
+	height: 200px;
+	border:solid 1px rgb(200,200,200);
+	border-bottom: none;
+	border-top: none;
+}
+.bar, .bar2{
+	border:solid 1px rgb(200,200,200);
+}
+.bar:hover{
+	box-shadow: 2px 1px 6px rgb(110,200,230), -1px 1px 6px 2px rgb(110,200,230);	
+}
+.bottom{
+	width: 100%;
+	height: 400px;
+	background: #eee;
+}
+.next , .next1 , .next2{
+	position:absolute;
+	top:45%;
+	right:3%;
+	width:31px;
+	height:31px;
+	border-radius: 100px;
+	z-index:100;
+}
+.preview, .preview1, .preview2{
+	position:absolute;
+	top:45%;
+	left:3%;
+	width:31px;
+	height:31px;
+	z-index:100;
+	border-radius: 100px;
+	
+}
+.preview:hover , .preview1:hover, .preview2:hover, .next:hover , .next1:hover , .next2:hover{
+	border: solid 1px gray;

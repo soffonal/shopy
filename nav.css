@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+.nav{
+	margin:8px 0;
+	margin-bottom: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	min-width:800px;
+	height: 45px;
+	justify-content: space-between;
+}
+.fgroup{
+	display: flex;
+	width: 65%;
+	min-width: 700px;
+	justify-content:space-between;
+	flex-wrap: nowrap;
+	margin-left: 10px;
+}
+.sgroup{
+	flex-wrap: nowrap;
+	display: flex;
+	width: 24%;
+	min-width: 300px;
+	justify-content:space-between;
+	margin-right: 10px;
+}
+.logo, .catnav, .cart, .searchbar, .acc, .saved{
+	width:90px;
+	min-width:90px;
+	height: 32px ;
+	margin: 5px 0px;
+	border-radius: 5px;
+	text-align:center;
+	cursor: pointer;
+	padding: 0;
+}
+
+.catnav, .g{
+	display: flex;
+	align-items: flex-end;
+}
+.f1{min-width: 70px}
+.f2{min-width: 80px}
+.g{min-width: 70px !important; width: 95px; margin: 0}
+
+.f3, .f4{
+	min-width: 60px;
+}
+.logo{
+	color: blue;
+	border:none;
+	height: 37px;
+	width: 90px;
+	
+	background-size:100% 100%;
+}
+.cart{
+	margin-top: 5px;
+	min-width: 70px;
+	width: 70px;
+	margin-left:10px;
+
+}
+.catnav{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.catnav span{
+	font-size: 14px;
+	font-weight: 700;
+	color:rgb(50,50,50);
+}
+
+.acc{min-width:95px; position: relative; margin-left: 10px;}
+.acc:hover .accbox{display:block; }
+.accbox{position:absolute; left: -150px; top:40px; display:none; margin-top:5px; width:420px; height:300px; border:1px solid blue; border-radius:4px; background:white;}
+.sign{color:rgb(50,150,250); width:100%; height:40px; border-bottom:1px solid black; padding-top:12px;}
+
+
+.acclist{width:100%; height:12.5%; }
+.sides{height:calc(100% - 40px); width: 100%; display:flex; flex-wrap:nowrap;}
+.left{width:50%; height:100%; border-right:solid #eee 1px;}
+.right{width:50%; height:100%;}
+.right .acclist{border:none;}
+.searchbar{
+	position:relative;
+	display:flex;
+	width:65%;
+	min-width:60%;
+	border:#ddd 1px solid;
+	height: 35px;
+}
+.cart{ position: relative; border: none;}
+.svgcart{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top:0;
+	left: 0;
+}
+.cartn{
+	width:50%;
+	height: 50%;
+	position: absolute;
+	bottom: 0;
+	right: 2px;
+}
+.cartnum{
+	width:50%;
+	height: 50%;
+	position: absolute;
+	top: 2px;
+	right: 8%;
+	color:white;
+	font-weight: bold;
+}
+.nav_search{
+	width:80%;
+	height:100%;
+	font-size:14px;
+	font-family:arial;
+	border:none;
+	background:white;
+	padding-left:6px;
+}
+.searchbtn{
+	width:10.1%;
+	height:100%;
+	border:none;
+	cursor: pointer;	
+	background: #f7f7f7;
+	border-top-right-radius:5px;
+	border-bottom-right-radius: 5px;
+}
+.searchchoose:focus, .searchchoose:active{
+	border-color: rgb(50,150,250);
+	box-shadow: 2px 1px 6px rgb(50,150,250), -1px 1px 6px 2px rgb(50,150,250);
+	z-index:100;
+}
+
+.searchchoose{
+	position: relative;
+	width:10%;
+	height:100%;
+	border:none;
+	background:#f7f7f7;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:rgb(100,100,100);
+	border-right:1px solid black;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.sayall{
+	position: absolute;
+	left:30%;
+	width:15%;
+	height: 30%;
+}
+.allarrow{
+	position: absolute;
+	right:21%;
+	width:13%;
+	height: 30%;
+}
+.searchchoose:hover .allarrow{
+	bottom: 25%;
+}
+.searchchoose:hover, .searchbtn:hover{
+	background: #f1f1f1
+}
+.h{font-size:12px;}
+.g{font-size:14px;}
+@media only screen and (max-width : 1100px){
+	.logo, .catnav, .cart, .searchbar, .acc, .saved{
+		
+}
