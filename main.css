@@ -11,25 +11,56 @@
 	margin: 0 auto;
 }
 .top{
+
 	height: 44px;
 	width: 100%;
-	border-bottom: black 1px solid;
+	/*border-bottom: black 1px solid;*/
 	display: flex;
-	background: pink;
+	/*background: ;*/
 	align-items: center;
 	justify-content: space-around;
+	z-index: 0;
+	/*background:rgb(243,243,243);*/
 
 	/*flex-direction: column;*/
 }
 .nav-left, .nav-right{
-	width: 12%;
+	width: 44px;
 	height: 100%;
-	background: yellow;
+	/*background: blue;*/
+}
+.nav-right{
+	z-index: 0
+}
+
+.second{
+	height: 44px;
+	width: 12.5%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position:fixed;
+	top:0;
+	right: 0;
+	z-index: 100;
+	background:rgb(243,243,243);
+}
+.stick{
+	height: 44px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position:sticky;
+	top:0;
+	right: 0;
+	z-index: 70;
+	background:rgb(243,243,243);
 }
 .header-content{
 	height: 100%;
 	width:76%;
-	background: gray;
+	/*background: gray;*/
 }
 .top .t-icon{
 	height: 85%;
@@ -63,7 +94,7 @@
 	width:100%;
 	border-bottom: black 1px solid;
 	background: white;
-	overflow: auto;
+	overflow: nones;
 }
 .bar1 , .bar2{
 	display: flex;
@@ -123,6 +154,7 @@
 	width:100%;
 	height: 200px;
 	background: rgb(235,235,235);
+	margin-top: 44px;
 
 }
 .cata{
@@ -144,7 +176,7 @@
 	flex-direction: row;
 	margin-bottom: 0px;
 	width: 100%;
-	height: 157px;
+	height: 160px;
 	/*background: pink;*/
 
 	align-items: center;
@@ -152,7 +184,7 @@
 
 }
 .s{
-	height: 102px;
+	height: 108px;
 }
 
 .contain{
